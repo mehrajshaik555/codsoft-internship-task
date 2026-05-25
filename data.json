@@ -1,0 +1,415 @@
+{
+  "users": [
+    {
+      "username": "Mehraj",
+      "password": "mehraj22"
+    }
+  ],
+  "quizzes": [
+    {
+      "title": "Programming Master Quiz",
+      "questions": [
+        {
+          "question": "What does HTML stand for?",
+          "options": [
+            "Hyper Text Markup Language",
+            "High Text Machine Language",
+            "Hyper Tool Multi Language",
+            "None"
+          ],
+          "answer": "Hyper Text Markup Language"
+        },
+        {
+          "question": "Which language is used for styling web pages?",
+          "options": [
+            "HTML",
+            "CSS",
+            "Python",
+            "Java"
+          ],
+          "answer": "CSS"
+        },
+        {
+          "question": "Which language runs in browser?",
+          "options": [
+            "Java",
+            "C",
+            "Python",
+            "JavaScript"
+          ],
+          "answer": "JavaScript"
+        },
+        {
+          "question": "Which tag is used for paragraph?",
+          "options": [
+            "p",
+            "h1",
+            "div",
+            "span"
+          ],
+          "answer": "p"
+        },
+        {
+          "question": "Which symbol is used for comments in JavaScript?",
+          "options": [
+            "//",
+            "##",
+            "**",
+            "%%"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which company developed Java?",
+          "options": [
+            "Sun Microsystems",
+            "Google",
+            "Apple",
+            "IBM"
+          ],
+          "answer": "Sun Microsystems"
+        },
+        {
+          "question": "Which is backend language?",
+          "options": [
+            "Python",
+            "CSS",
+            "HTML",
+            "Bootstrap"
+          ],
+          "answer": "Python"
+        },
+        {
+          "question": "Which HTML tag creates link?",
+          "options": [
+            "a",
+            "img",
+            "table",
+            "body"
+          ],
+          "answer": "a"
+        },
+        {
+          "question": "Which CSS property changes text color?",
+          "options": [
+            "font",
+            "text",
+            "color",
+            "background"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which keyword declares variable in JavaScript?",
+          "options": [
+            "var",
+            "loop",
+            "int",
+            "string"
+          ],
+          "answer": "var"
+        },
+        {
+          "question": "What is full form of CSS?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which HTML tag displays image?",
+          "options": [
+            "img",
+            "image",
+            "picture",
+            "src"
+          ],
+          "answer": "img"
+        },
+        {
+          "question": "Which operator is used for addition?",
+          "options": [
+            "+",
+            "-",
+            "*",
+            "/"
+          ],
+          "answer": "+"
+        },
+        {
+          "question": "Which function prints output in JavaScript?",
+          "options": [
+            "print()",
+            "echo()",
+            "console.log()",
+            "printf()"
+          ],
+          "answer": "console.log()"
+        },
+        {
+          "question": "Which keyword is used in loop?",
+          "options": [
+            "for",
+            "display",
+            "show",
+            "alert"
+          ],
+          "answer": "for"
+        },
+        {
+          "question": "Which database is NoSQL?",
+          "options": [
+            "MongoDB",
+            "MySQL",
+            "Oracle",
+            "SQL Server"
+          ],
+          "answer": "MongoDB"
+        },
+        {
+          "question": "Which language is used in Android?",
+          "options": [
+            "Java",
+            "HTML",
+            "CSS",
+            "PHP"
+          ],
+          "answer": "Java"
+        },
+        {
+          "question": "What is full form of CPU?",
+          "options": [
+            "Central Processing Unit",
+            "Central Program Unit",
+            "Computer Processing Unit",
+            "Control Program Unit"
+          ],
+          "answer": "Central Processing Unit"
+        },
+        {
+          "question": "Which tag creates table row?",
+          "options": [
+            "tr",
+            "td",
+            "th",
+            "table"
+          ],
+          "answer": "tr"
+        },
+        {
+          "question": "Which CSS property changes background?",
+          "options": [
+            "background",
+            "color",
+            "font",
+            "style"
+          ],
+          "answer": "background"
+        },
+        {
+          "question": "Which company created JavaScript?",
+          "options": [
+            "Netscape",
+            "Google",
+            "Microsoft",
+            "IBM"
+          ],
+          "answer": "Netscape"
+        },
+        {
+          "question": "Which HTML tag creates heading?",
+          "options": [
+            "h1",
+            "head",
+            "title",
+            "p"
+          ],
+          "answer": "h1"
+        },
+        {
+          "question": "Which symbol ends statement in JavaScript?",
+          "options": [
+            ";",
+            ":",
+            ",",
+            "."
+          ],
+          "answer": ";"
+        },
+        {
+          "question": "Which keyword creates function?",
+          "options": [
+            "function",
+            "method",
+            "define",
+            "fun"
+          ],
+          "answer": "function"
+        },
+        {
+          "question": "Which language is used for database queries?",
+          "options": [
+            "SQL",
+            "HTML",
+            "CSS",
+            "Java"
+          ],
+          "answer": "SQL"
+        },
+        {
+          "question": "Which tag creates line break?",
+          "options": [
+            "br",
+            "hr",
+            "break",
+            "lb"
+          ],
+          "answer": "br"
+        },
+        {
+          "question": "Which CSS property changes font size?",
+          "options": [
+            "font-size",
+            "size",
+            "text-size",
+            "font"
+          ],
+          "answer": "font-size"
+        },
+        {
+          "question": "Which keyword stores constant value?",
+          "options": [
+            "const",
+            "var",
+            "let",
+            "value"
+          ],
+          "answer": "const"
+        },
+        {
+          "question": "Which language is used in AI?",
+          "options": [
+            "Python",
+            "CSS",
+            "HTML",
+            "XML"
+          ],
+          "answer": "Python"
+        },
+        {
+          "question": "Which company created Python?",
+          "options": [
+            "Guido van Rossum",
+            "Google",
+            "IBM",
+            "Apple"
+          ],
+          "answer": "Guido van Rossum"
+        },
+        {
+          "question": "Which symbol is used in id selector?",
+          "options": [
+            "#",
+            ".",
+            "*",
+            "@"
+          ],
+          "answer": "#"
+        },
+        {
+          "question": "Which symbol is used in class selector?",
+          "options": [
+            ".",
+            "#",
+            "*",
+            "$"
+          ],
+          "answer": "."
+        },
+        {
+          "question": "Which method converts JSON to object?",
+          "options": [
+            "JSON.parse()",
+            "JSON.stringify()",
+            "parseInt()",
+            "toObject()"
+          ],
+          "answer": "JSON.parse()"
+        },
+        {
+          "question": "Which method converts object to JSON?",
+          "options": [
+            "JSON.stringify()",
+            "JSON.parse()",
+            "toJSON()",
+            "convert()"
+          ],
+          "answer": "JSON.stringify()"
+        },
+        {
+          "question": "Which HTML tag creates form?",
+          "options": [
+            "form",
+            "input",
+            "table",
+            "button"
+          ],
+          "answer": "form"
+        },
+        {
+          "question": "Which tag creates button?",
+          "options": [
+            "button",
+            "btn",
+            "input",
+            "click"
+          ],
+          "answer": "button"
+        },
+        {
+          "question": "Which method shows popup?",
+          "options": [
+            "alert()",
+            "log()",
+            "show()",
+            "display()"
+          ],
+          "answer": "alert()"
+        },
+        {
+          "question": "Which HTML tag creates unordered list?",
+          "options": [
+            "ul",
+            "ol",
+            "li",
+            "list"
+          ],
+          "answer": "ul"
+        },
+        {
+          "question": "Which HTML tag creates ordered list?",
+          "options": [
+            "ol",
+            "ul",
+            "li",
+            "list"
+          ],
+          "answer": "ol"
+        },
+        {
+          "question": "Which tag creates list item?",
+          "options": [
+            "li",
+            "ul",
+            "ol",
+            "item"
+          ],
+          "answer": "li"
+        }
+      ]
+    }
+  ]
+}
