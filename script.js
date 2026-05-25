@@ -1,55 +1,28 @@
-const form =
-document.getElementById("contactForm");
+// Theme toggle
+const themeBtn = document.getElementById("themeBtn");
 
-form.addEventListener("submit",
-async(e)=>{
+themeBtn.addEventListener("click", () => {
+    document.body.classList.toggle("light");
+});
 
-  e.preventDefault();
+// Add Project
+document.getElementById("projectForm").addEventListener("submit", (e) => {
+    e.preventDefault();
 
-  const data = {
+    const name = e.target[0].value;
+    const desc = e.target[1].value;
 
-    name:
-    document.getElementById("name").value,
+    const div = document.createElement("div");
+    div.className = "card";
 
-    email:
-    document.getElementById("email").value,
+    div.innerHTML = `
+        <h2>${name}</h2>
+        <p>${desc}</p>
+    `;
 
-    message:
-    document.getElementById("message").value
+    document.getElementById("projectList").appendChild(div);
 
-  };
+    e.target.reset();
 
-  try{
-
-    const response = await fetch(
-
-      "http://localhost:5000/contact",
-
-      {
-
-        method:"POST",
-
-        headers:{
-          "Content-Type":"application/json"
-        },
-
-        body:JSON.stringify(data)
-
-      }
-
-    );
-
-    const result =
-    await response.json();
-
-    alert(result.message);
-
-    form.reset();
-
-  }catch(error){
-
-    alert("Server Error");
-
-  }
-
+    alert("Project Added Successfully 🚀");
 });
