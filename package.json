@@ -1,0 +1,14 @@
+{
+  "name": "calculator-project",
+  "version": "1.0.0",
+  "description": "Colorful Full Stack Calculator",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Mehraj Shaik",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
