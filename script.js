@@ -1,126 +1,55 @@
-const display = document.getElementById("display");
+const form =
+document.getElementById("contactForm");
 
-const buttons = document.querySelectorAll("button");
+form.addEventListener("submit",
+async(e)=>{
 
-let expression = "";
+  e.preventDefault();
 
-/* Button Click Events */
+  const data = {
 
-buttons.forEach(button => {
+    name:
+    document.getElementById("name").value,
 
-    button.addEventListener("click", () => {
+    email:
+    document.getElementById("email").value,
 
-        const value = button.innerText;
+    message:
+    document.getElementById("message").value
 
-        /* Clear All */
+  };
 
-        if(value === "C"){
+  try{
 
-            expression = "";
-            display.value = "";
+    const response = await fetch(
 
-        }
+      "http://localhost:5000/contact",
 
-        /* Backspace */
+      {
 
-        else if(value === "⌫"){
+        method:"POST",
 
-            expression = expression.slice(0, -1);
-            display.value = expression;
+        headers:{
+          "Content-Type":"application/json"
+        },
 
-        }
+        body:JSON.stringify(data)
 
-        /* Calculate Result */
+      }
 
-        else if(value === "="){
+    );
 
-            try{
+    const result =
+    await response.json();
 
-                expression = eval(expression).toString();
-                display.value = expression;
+    alert(result.message);
 
-            }
+    form.reset();
 
-            catch(error){
+  }catch(error){
 
-                display.value = "Error";
-                expression = "";
+    alert("Server Error");
 
-            }
-
-        }
-
-        /* Numbers and Operators */
-
-        else{
-
-            expression += value;
-            display.value = expression;
-
-        }
-
-    });
-
-});
-
-/* Keyboard Support */
-
-document.addEventListener("keydown", (event) => {
-
-    const key = event.key;
-
-    /* Numbers */
-
-    if(
-        (key >= "0" && key <= "9") ||
-        key === "+" ||
-        key === "-" ||
-        key === "*" ||
-        key === "/" ||
-        key === "."
-    ){
-
-        expression += key;
-        display.value = expression;
-
-    }
-
-    /* Enter Key */
-
-    else if(key === "Enter"){
-
-        try{
-
-            expression = eval(expression).toString();
-            display.value = expression;
-
-        }
-
-        catch(error){
-
-            display.value = "Error";
-            expression = "";
-
-        }
-
-    }
-
-    /* Backspace Key */
-
-    else if(key === "Backspace"){
-
-        expression = expression.slice(0, -1);
-        display.value = expression;
-
-    }
-
-    /* Escape Key */
-
-    else if(key === "Escape"){
-
-        expression = "";
-        display.value = "";
-
-    }
+  }
 
 });

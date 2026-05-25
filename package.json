@@ -1,14 +1,21 @@
 {
-  "name": "calculator-project",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "Colorful Full Stack Calculator",
+  "description": "",
   "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "Mehraj Shaik",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
+  "type": "commonjs",
   "dependencies": {
-    "express": "^4.18.2"
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.2",
+    "nodemailer": "^8.0.7"
   }
 }
